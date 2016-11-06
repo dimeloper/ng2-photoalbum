@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home.component';
+import { SidePanelComponent } from './components/side-panel.component';
 import { PhotoListComponent } from './components/photo-list.component';
 
 import { PhotoService } from './services/photo.service';
@@ -13,6 +14,7 @@ import { PhotoService } from './services/photo.service';
     declarations: [
         AppComponent,
         HomeComponent,
+        SidePanelComponent,
         PhotoListComponent
     ],
     imports: [
