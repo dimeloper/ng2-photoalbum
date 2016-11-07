@@ -6,7 +6,7 @@ import { RegisterService } from '../services/register.service';
     selector: 'register',
     templateUrl: './register.component.html'
 })
-export class Register {
+export class RegisterComponent {
     newUser: User = new User();
     registered: boolean = false;
 
