@@ -14,6 +14,9 @@ import { RegisterComponent } from './components/register.component';
 import { LoginComponent } from './components/login.component';
 import { MyAlbumComponent } from './components/my-album.component';
 import { AddPhotoComponent } from './components/add-photo.component';
+import { ImageDetailComponent } from './components/image-detail.component';
+import { ImageCommentsComponent } from './components/image-comments.component';
+
 
 import { PhotoService } from './services/photo.service';
 import { RegisterService } from './services/register.service';
