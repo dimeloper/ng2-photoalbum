@@ -33,6 +33,7 @@ const appRoutes: Routes = [
         path: 'add-photo',
         component: AddPhotoComponent
     }
+    
 
 ];
 
