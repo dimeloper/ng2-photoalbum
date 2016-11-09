@@ -49,5 +49,4 @@ export class ImageCommentsComponent {
 
         this.newComment = new Comment();
     }
-
 }
