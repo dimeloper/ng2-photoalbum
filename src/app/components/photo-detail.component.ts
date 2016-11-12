@@ -2,17 +2,17 @@ import { Component, Input } from '@angular/core';
 import { NavBarComponent } from './nav-bar.component';
 import { Photo } from '../models/photo';
 import { PhotoService } from '../services/photo.service';
-import { ImageCommentsComponent } from './image-comments.component';
+import { PhotoCommentsComponent } from './photo-comments.component';
 import { UserService } from '../services/user.service';
 import { User } from '../models/user';
 import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
-    selector: 'image-detail',
-    templateUrl: './image-detail.component.html'
+    selector: 'photo-detail',
+    templateUrl: './photo-detail.component.html'
 })
 
-export class ImageDetailComponent {
+export class PhotoDetailComponent {
     photo: Photo = new Photo();
     like: string;
     user: User;

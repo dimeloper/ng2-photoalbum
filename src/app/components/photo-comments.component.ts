@@ -7,11 +7,11 @@ import { CommentService } from '../services/comment.service';
 import { PhotoService } from '../services/photo.service';
 
 @Component({
-    selector: 'image-comments',
-    templateUrl: './image-comments.component.html'
+    selector: 'photo-comments',
+    templateUrl: './photo-comments.component.html'
 })
 
-export class ImageCommentsComponent {
+export class PhotoCommentsComponent {
     @Input('photo') photo: Photo;
     myLocalStorage = localStorage;
     user: User = new User();

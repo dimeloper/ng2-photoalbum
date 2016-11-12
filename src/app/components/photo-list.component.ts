@@ -25,7 +25,7 @@ export class PhotoListComponent {
     onSelect(photo: Photo) {
         this.selectedPhoto = photo;
         if (this.loginService.checkLogin()) {
-            this.router.navigate(['/image-detail', this.selectedPhoto.photoId]);
+            this.router.navigate(['/photo-detail', this.selectedPhoto.photoId]);
         } else {
           alert("You have to login first.");
         }

@@ -14,8 +14,8 @@ import { RegisterComponent } from './components/register.component';
 import { LoginComponent } from './components/login.component';
 import { MyAlbumComponent } from './components/my-album.component';
 import { AddPhotoComponent } from './components/add-photo.component';
-import { ImageDetailComponent } from './components/image-detail.component';
-import { ImageCommentsComponent } from './components/image-comments.component';
+import { PhotoDetailComponent } from './components/photo-detail.component';
+import { PhotoCommentsComponent } from './components/photo-comments.component';
 import { PhotoRowComponent } from './components/photo-row.component';
 
 import { PhotoService } from './services/photo.service';
@@ -37,8 +37,8 @@ import { CommentService } from './services/comment.service';
         LoginComponent,
         MyAlbumComponent,
         AddPhotoComponent,
-        ImageDetailComponent,
-        ImageCommentsComponent,
+        PhotoDetailComponent,
+        PhotoCommentsComponent,
         PhotoRowComponent
     ],
     imports: [

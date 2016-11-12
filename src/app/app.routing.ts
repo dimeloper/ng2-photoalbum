@@ -6,7 +6,7 @@ import { RegisterComponent } from './components/register.component';
 import { LoginComponent } from './components/login.component';
 import { MyAlbumComponent } from './components/my-album.component';
 import { AddPhotoComponent } from './components/add-photo.component';
-import { ImageDetailComponent } from './components/image-detail.component';
+import { PhotoDetailComponent } from './components/photo-detail.component';
 
 const appRoutes: Routes = [
     {
@@ -35,8 +35,8 @@ const appRoutes: Routes = [
         component: AddPhotoComponent
     },
     {
-        path: 'image-detail/:id',
-        component: ImageDetailComponent
+        path: 'photo-detail/:id',
+        component: PhotoDetailComponent
     }
 
 
